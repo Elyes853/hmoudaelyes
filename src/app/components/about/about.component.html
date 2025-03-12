@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <img src="/assets/person-about.jpg" alt="pic elyes" />
+
+  <div>
+    <p class="description">
+      Hello, I'm Elyes Hmouda, an ICT Engineer. I have knowledge in web
+      development and am passionate about a wide range of ICT fields, including
+      AI, Cloud Computing, and IoT.
+    </p>
+    <div class="contact">
+      <p type="email" class="email">
+        <span>Email: </span> <a [href]="'mailto:' + email">{{ email }}</a>
+      </p>
+      <p class="address"><span>Address: </span>Sousse, Tunisia</p>
+    </div>
+    <div class="buttons">
+      <button class="button download" (click)="downloadCV()">
+        Download CV
+      </button>
+      <button class="button linkedIn" (click)="openLinkedIn()">LinkedIn</button>
+    </div>
+  </div>
+</div>

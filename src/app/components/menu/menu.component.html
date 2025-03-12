@@ -1,0 +1,23 @@
+<div id="navbar-parent">
+  <nav class="navbar">
+    <div class="logo">
+      <img src="./assets/elyesh-logo.png" alt="Logo" height="80" />
+      <!-- Adjust the height as needed -->
+    </div>
+    <ul class="menu">
+      <li>
+        <a href="#home" (click)="scrollToSection($event, 'home')">Home</a>
+      </li>
+      <li>
+        <a href="#about" (click)="scrollToSection($event, 'about')">About</a>
+      </li>
+      <li>
+        <a href="#projects" (click)="scrollToSection($event, 'projects')"
+          >Projects</a
+        >
+      </li>
+      <!-- <li><a href="">Skills</a></li> -->
+      <li><a href="" [href]="'mailto:' + email"> Contact </a></li>
+    </ul>
+  </nav>
+</div>

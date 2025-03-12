@@ -1,0 +1,88 @@
+.wrapper {
+  color: white;
+  background-color: #171717;
+  height: 100vh;
+}
+
+img {
+  height: 128px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.arrows {
+  position: relative;
+  width: 95%;
+  left: 2%;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrows button:disabled {
+  opacity: 0.5; /* Style for disabled state */
+  cursor: not-allowed;
+}
+
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+
+.card {
+  display: flex;
+  background: #272727;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 80%; /* Adjust as needed */
+  height: 70%;
+  margin: 50px auto; /* Center the card */
+  font-size: 20px;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.left-section {
+  padding: 20px;
+}
+
+.left-section h2 {
+  margin-top: 0;
+  font-size: 28px;
+  color: #fff;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+
+.left-section .description {
+  padding-left: 50px;
+  padding-right: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.technologies {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+}
+
+.right-section {
+  max-width: 30%; /* Adjust as needed */
+}
+
+.right-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+a.link {
+  color: white;
+}

@@ -1,0 +1,83 @@
+#navbar-parent{
+  position: sticky;
+  top: 0;
+  height: 0;
+  width: 100%;
+
+}
+
+.navbar {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space between the logo and menu */
+  background-color: unset;
+  backdrop-filter: blur(100px);
+  border-bottom: solid 1px #ffffff3b;
+  padding-top: 0;
+
+  /* Apply the sticky effect */
+  //----------------------------*/
+  position: absolute;
+  top: 0;
+  //background-color: transparent;
+
+  //----------------------------*/
+}
+
+.logo {
+  margin-left: 130px;
+
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin-right: 170px;
+
+}
+
+.menu li {
+  margin-left: 20px; /* Space between menu items */
+}
+
+.menu li:nth-child(4){
+  border: solid 3px #D80034;
+  border-radius: 100px;
+
+
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 22px;
+  margin:0px 25px;
+}
+
+.menu a:nth-child(4) {
+  margin-right:0px;
+}
+
+.menu li{
+  padding:15px 10px;
+  position: relative;
+}
+
+.menu li a::before{
+  display: inline-block;
+  content: "";
+  background-color: aqua;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+
+

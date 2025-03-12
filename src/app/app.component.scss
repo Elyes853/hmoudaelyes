@@ -1,0 +1,14 @@
+body{
+  overflow: hidden;
+}
+
+.container {
+  scroll-snap-type: y mandatory; /* Enables snap scrolling */
+  overflow-y: scroll; /* Enables vertical scrolling */
+  height: 100vh; /* Container height matches viewport */
+}
+
+.container > * {
+  scroll-snap-align: start; /* Ensure snapping at the start of each section */
+  height: 100vh; /* Each child takes full viewport height */
+}

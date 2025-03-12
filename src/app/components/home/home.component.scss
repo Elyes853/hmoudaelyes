@@ -1,0 +1,36 @@
+.wrapper {
+  box-sizing: border-box;
+  color: white;
+  background-color: #171717;
+  height: 100vh;
+  font-family: "Bodoni MT";
+  font-size: 70px;
+  padding-left: 16%;
+  padding-top: 15%;
+  font-weight: normal;
+}
+
+p {
+  padding: 8px;
+}
+
+p.iam {
+  font-weight: normal;
+  font-size: 70px;
+}
+
+.name {
+  color: #d80034;
+}
+
+p.welcome {
+  font-size: 15px;
+}
+
+.description {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: normal;
+  color: #ababab;
+  margin-right: 65%;
+}

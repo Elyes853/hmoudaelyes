@@ -1,0 +1,72 @@
+.wrapper {
+  color: white;
+  background-color: #292929;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12%;
+  font-family: "Bodoni MT";
+}
+
+button {
+  width: 290px;
+  border: transparent;
+  border-radius: 100px;
+  color: white;
+  font-size: 24px;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+
+.download {
+  background: linear-gradient(to right, #d00033, #d80034);
+  margin-right: 4%;
+}
+
+.linkedIn {
+  border: solid #d80034 2px;
+  background-color: transparent;
+}
+
+span {
+  color: #d80034;
+  font-weight: bold;
+}
+
+p {
+  font-family: Inter;
+  font-size: 24px;
+}
+
+.description {
+  color: #c8c8c8;
+  margin-right: 40%;
+  margin-bottom: 5%;
+}
+
+.contact {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.email {
+  margin-right: 5%;
+}
+
+img {
+  margin-right: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.linkedinIcon {
+  width: 20px;
+}
+
+.buttons {
+  display: flex;
+}
