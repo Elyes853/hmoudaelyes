@@ -14,7 +14,7 @@
   justify-content: space-between; /* Space between the logo and menu */
   background-color: unset;
   backdrop-filter: blur(100px);
-  border-bottom: solid 1px #ffffff3b;
+  // border-bottom: solid 1px #ffffff3b;
   padding-top: 0;
 
   /* Apply the sticky effect */
@@ -55,6 +55,8 @@
   font-family: Inter;
   font-size: 22px;
   margin:0px 25px;
+  position: relative;
+
 }
 
 .menu a:nth-child(4) {
@@ -63,17 +65,24 @@
 
 .menu li{
   padding:15px 10px;
-  position: relative;
 }
 
-.menu li a::before{
+.menu li a:before{
   display: inline-block;
   content: "";
-  background-color: aqua;
+  background-color: #ff003c;
   height: 2px;
-  width: 100%;
+  width: 0%;
   position: absolute;
   bottom: 0;
+}
+
+.menu li a:hover:before{
+  width: 100%;
+  -webkit-transition: width 0.2s ease-out;
+  -o-transition: width 0.2s ease-out;
+  transition: width 0.2s ease-out;
+
 }
 
 
