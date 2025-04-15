@@ -8,6 +8,7 @@
   padding-left: 16%;
   padding-top: 15%;
   font-weight: normal;
+
 }
 
 p {
@@ -32,5 +33,17 @@ p.welcome {
   font-size: 20px;
   font-weight: normal;
   color: #ababab;
-  margin-right: 65%;
+  margin-right: 50%;
+}
+
+img{
+  width: 400px;
+  margin: 70px;
+
+}
+
+div.super-wrapper{
+  display: flex;
+  background-color: #171717;
+
 }
